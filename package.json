@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "dependencies": {
+    "todomvc-app-css": "^2.0.0",
+    "todomvc-common": "^1.0.0"
+  },
+  "name": "todomvc",
+  "description": "> Template used for creating [TodoMVC](http://todomvc.com) apps",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "browser-sync start --server --files  *.html, css/*.css, js/*.js",
+    "start": "npm run dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}
